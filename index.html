@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="html, HTML" />
+    <meta name="author" content="Ashikur Rahman" />
+    <title>Practice Sheet</title>
+  </head>
+
+  <body>
+    <h1 align="center">Hello</h1>
+    <hr />
+    <p>Paragraph</p>
+    <b> Bold </b>
+    <strong> Important </strong>
+    <i> Italic </i>
+    <emp> emphasis text </emp>
+    <strike> strikethrough </strike>
+    <mark> highlight </mark>
+    <small> small text </small>
+    <del> deleted text </del>
+    <ins> insert </ins>
+    <u> underline </u>
+    <sup> superscript </sup>
+    <sub> subscript </sub>
+    <pre>
+    I love you
+           from my heart
+    you are the one
+           just for me
+    </pre>
+    <ol start="5" type="a">
+      <li>item 1</li>
+    </ol>
+
+    <ul type="circle">
+      <li>item 2</li>
+    </ul>
+
+    <img
+      src="./assets/lily.png"
+      alt="flower-image"
+      height="100px"
+      width="100px"
+      border="12px"
+      title="lily flower"
+      align="top"
+      hspace="100px"
+      vspace="80px"
+    />
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/zsYMgmb2oCM?si=NIe2U2-ksLpE2PH-"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+    <a href="http://www.google.com" target="_blank" rel="noopener noreferrer"
+      >Visit Google</a
+    >
+    <div style="background-color: aquamarine; height: 100px; width: 200px">
+      <p>This is paragraph inside div 1</p>
+    </div>
+    <!-- All of table -->
+    <table border="2" height="300" width="200">
+      <caption>
+        Student Details
+      </caption>
+      <colgroup>
+        <col span="4" style="background-color: aquamarine" />
+      </colgroup>
+      <thead>
+        <tr>
+          <th scope="col">ID</th>
+          <th scope="col">Name</th>
+          <th scope="col" colspan="2">Phone</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td scope="row">1</td>
+          <td>John</td>
+          <td>017</td>
+          <td rowspan="2">018</td>
+        </tr>
+        <tr>
+          <td scope="row">2</td>
+          <td>Jane</td>
+          <td>016</td>
+        </tr>
+        <tr>
+          <td scope="row">3</td>
+          <td>Amet</td>
+          <td>017</td>
+          <td>015</td>
+        </tr>
+      </tbody>
+      <tfoot></tfoot>
+    </table>
+    <!-- All about form -->
+    <h2>Registration Form</h2>
+    <form action="">
+      <legend>Personal Info</legend>
+      <div>
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name" required />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" />
+      </div>
+      <br />
+      <div>
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password" />
+      </div>
+      <br />
+      <div>
+        <label for="dob">Date of Birth: </label>
+        <input type="date" name="dob" id="dob" />
+      </div>
+      <br />
+      <div>
+        <label for="photo">Choose your photo: </label>
+        <input type="file" name="photo" id="photo" />
+      </div>
+      <br />
+      <div>
+        <label for="gender">Gender: </label>
+        <input type="radio" name="gender" id="gender" value="male" />Male
+        <input type="radio" name="gender" id="gender" value="female" />Female
+      </div>
+      <br />
+      <div>
+        <label for="religion">Religion: </label>
+        <input
+          type="checkbox"
+          name="c1"
+          id="muslim"
+          value="islam"
+          checked
+        />Islam
+        <input type="checkbox" name="c1" id="hindu" value="hindu" />Hindu
+      </div>
+      <br />
+      <div>
+        <label for="department">Department: </label>
+        <select name="department" id="">
+          <option value="CSE">CSE</option>
+          <option value="BBA">BBA</option>
+          <option value="EEE" selected>EEE</option>
+          <option value="LLB">LLB</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label for="message">Message: </label> <br />
+        <textarea name="" id="" cols="50" rows="20"></textarea>
+      </div>
+      <input type="submit" value="Register" />
+      <input type="reset" value="Reset" />
+    </form>
+
+    <audio controls>
+      <source src="./assets/small-applause.mp3" type="audio/mp3" />
+      your browser does not support audio tag
+    </audio>
+
+    <br />
+
+    <video controls height="300px" width="200px" autoplay loop muted>
+      <source src="./assets/bee.mp4" type="video/mp4" />
+      your browser does not support audio tag
+    </video>
+
+    <br />
+
+    <img src="./assets/instagram.svg" alt="" height="100" />
+    <ol>
+      <li>HTML <progress min="0" max="100" value="90"></progress></li>
+      <li>CSS <progress min="0" max="100" value="80"></progress></li>
+      <li>JavaScript <progress min="0" max="70" value="70"></progress></li>
+    </ol>
+    <figure>
+      <img src="./assets/instagram.svg" alt="" height="100" />
+      <figcaption>Instagram Logo</figcaption>
+    </figure>
+    <details>
+      <summary>Details</summary>
+      <p>This is a paragraph of text.</p>
+    </details>
+  </body>
+</html>
